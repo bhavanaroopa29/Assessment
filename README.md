@@ -155,13 +155,13 @@ Todo List Application Structure Overview
 This Todo List app is a comprehensive task management application with a React frontend and RESTful API backend. It provides a robust set of features for managing tasks:
 Key Features:
 
-User Management:
+# User Management:
 
-Switch between different users to view and manage their todos
-Each user has their own todo collection
+- Switch between different users to view and manage their todos
+-Each user has their own todo collection
 
 
-Todo Management:
+# Todo Management:
 
 Create, read, update, and delete todo items
 Set priority levels (High, Medium, Low)
@@ -169,49 +169,46 @@ Add tags to categorize todos
 Mention other users in todos
 
 
-Note System:
+# Note System:
 
-Add notes to existing todos
-View note history with timestamps
-
-
-Filtering & Sorting:
-
-Filter todos by priority, tags
-Sort by creation date, priority, or title
-Pagination for managing large sets of todos
+- Add notes to existing todos
+- View note history with timestamps
 
 
-Export Functionality:
+# Filtering & Sorting:
 
-Export todos in different formats (JSON, CSV)
+- Filter todos by priority, tags
+- Sort by creation date, priority, or title
+- Pagination for managing large sets of todos
 
 
+# Export Functionality:
+-Export todos in different formats (JSON, CSV)
 
-Technical Implementation:
+# Technical Implementation:
 Frontend Architecture:
 
-React Components: Modular UI components with clear separation of concerns
-Context API: Global state management using TodoContext
-React Router: Navigation between todo list and detail views
-Service Modules: API communication handled by service modules (todoService, userService)
+- React Components: Modular UI components with clear separation of concerns
+- Context API: Global state management using TodoContext
+- React Router: Navigation between todo list and detail views
+- Service Modules: API communication handled by service modules (todoService, userService)
 
-Components Structure:
+# Components Structure:
 
-Header: App title, create todo button, export options
-UserSelector: Switch between different users
-TodoList: Display todos with filtering and pagination
-TodoItem: Individual todo display with action buttons
-TodoDetails: Detailed view of a specific todo with notes
-FilterBar: Filter and sort controls
-NoteModal: Add notes to todos
-TodoForm: Create and edit todos
-Pagination: Navigate between pages of todos
-Footer: Application footer with links
+- Header: App title, create todo button, export options
+- UserSelector: Switch between different users
+- TodoList: Display todos with filtering and pagination
+- TodoItem: Individual todo display with action buttons
+- TodoDetails: Detailed view of a specific todo with notes
+- FilterBar: Filter and sort controls
+- NoteModal: Add notes to todos
+- TodoForm: Create and edit todos
+- Pagination: Navigate between pages of todos
+- Footer: Application footer with links
 
-Styling:
+# Styling:
 
-Clean, modern UI with responsive design
-Priority color-coding for quick visual identification
-Modal dialogs for forms and confirmations
-Consistent use of design variables and components
+- Clean, modern UI with responsive design
+- Priority color-coding for quick visual identification
+- Modal dialogs for forms and confirmations
+- Consistent use of design variables and components
